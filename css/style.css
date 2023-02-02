@@ -1,0 +1,302 @@
+/*Configurações gerais*/
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-boxs;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+#img{
+    margin: 40px;
+    margin-left: 100px;
+}
+
+.redes{
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    border-radius: 15px;
+    height: 30px;
+    width: 30px;
+    margin: 5px;
+    margin-left: 40px;
+    margin-top: 240px;
+}
+
+.redes:hover{
+    background-color: red;
+    transition: 0.5s;
+    transform: translateY(-15px);
+}
+
+ul{
+    display: flex;
+    justify-items: center;
+    list-style: none;
+}
+
+#face{
+    margin-left: 140px;
+}
+
+nav{
+    position: fixed;
+    top: 60px;
+    right: 80px;
+}
+
+.nav{
+    margin: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.nav:hover{
+    cursor: pointer;
+    color: red;
+}
+
+h1{
+    font-size: 40px;
+}
+
+#like{
+    color: red;
+    font-size: 120px;
+}
+
+section{
+    margin-left: 100px;
+    margin-top: 25vh;
+}
+
+input{
+    position: fixed;
+    width: 180px;
+    padding: 8px;
+    color: white;
+    background-color: red;
+    border-radius: 15px;
+    font-weight: bold;
+    margin: 70px;
+    margin-left: 70px;
+}
+
+input:hover{
+    margin-top: 55px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+aside{
+    width: 1200px;
+    height: 1200px;
+    border-radius: 700px;
+    background-color: red;
+    position: fixed;
+    right: -500px;
+    bottom: -500px;
+    border: 3px solid rgba(255, 255, 255, 0.329);
+}
+
+#img1{
+    transform: rotate(-15deg);
+    height: 600px;
+    width: 170px;
+    position: fixed;
+    bottom: 10px;
+}
+
+#img2{
+    transform: rotate(5deg);
+    height: 400px;
+    width: 170px;
+    position: fixed;
+    bottom: 10px;
+    right: 380px;
+}
+
+#img3{
+    transform: rotate(10deg);
+    width: 170px;
+    height: 400px;
+    position: fixed;
+    bottom: 10px;
+    right: 200px;
+}
+
+#img4{
+    transform: rotate(-10deg);
+    width: 180px;
+    height: 500px;
+    position: fixed;
+    bottom: 10px;
+    right: 5px;
+}
+
+.fechado{
+    height: 30px;
+    width: 30px;
+    position: fixed;
+    top: 40px;
+    right: 100px;
+    display: none;
+}
+
+#links{
+    display: none;
+    position: absolute;
+    right: 10px;
+    top: 30px;
+}
+
+#imgaberta{
+    display: none;
+    width: 20px;
+    height: 20px;
+}
+
+@media(max-width:1250px){
+
+    aside{
+        width: 800px;
+        height: 800px;
+        position: fixed;
+        right: -350px;
+        bottom: -350px;
+    }
+
+    #img1{
+        height: 400px;
+        width: 100px;
+        position: fixed;
+        bottom: 10px;
+    }
+    
+    #img2{
+        transform: rotate(1deg);
+        height: 300px;
+        width: 120px;
+        position: fixed;
+        bottom: 10px;
+        right: 230px;
+    }
+    
+    #img3{
+        width: 120px;
+        height: 280px;
+        position: fixed;
+        bottom: 10px;
+        right: 120px;
+    }
+    
+    #img4{
+        width: 150px;
+        height: 400px;
+        position: fixed;
+        bottom: 10px;
+        right: 5px;
+    }
+}
+
+@media(max-width:1000px){
+    aside{
+        display: none;
+    }
+
+    #img1{
+        display: none;
+    }
+    
+    #img2{
+        display: none;
+    }
+    
+    #img3{
+        display: none;
+    }
+    
+    #img4{
+        display: none;
+    }
+
+    section{
+        margin-left: 30%;
+    }
+
+    input{
+        margin-left: 10%;
+    }
+
+    #face{
+        margin-left: 35%;
+        margin-top: 200px;
+    }
+}
+
+@media(max-width:800px){
+    #links1{
+        display: none;
+    }
+
+    .fechado{
+        display: block;
+    }
+}
+
+@media(max-width:700px){
+    #img{
+        margin: 30px;
+    }
+
+    #imgfechada{
+        position: fixed;
+        right: 20px;
+    }
+
+    #imgaberta{
+        position: fixed;
+        right: 20px;
+    }
+
+    nav{
+        position: fixed;
+        right: 5px;
+        top: 80px;
+    }
+
+    section{
+        margin-left: 10%;
+        margin-top: 20%;
+    }
+
+    h1{
+        font-size: 30px;
+    }
+
+    #like{
+        font-size: 80px;
+    }
+
+    input{
+        position: absolute;
+        left: 0;
+        top: 380pxs;
+    }
+
+    #face{
+        margin-left: 40px;
+    }
+}
+
+@media(max-height:720px){
+    .links{
+        position: absolute;
+        top: 340px;
+        left: 0px;
+    }
+}
